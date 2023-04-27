@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  /* background-color: rgba(255, 182, 193, 0.539); */
+  background-color: lightcyan;  
+  /* background-color: lightgoldenrodyellow; */
+  /* background-color: lemonchiffon; */
+}
+header {
+  background-color: #000000;
+  color: white;
+  padding: 30px 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+h1 {
+  text-align: center;
+  line-height: 2;
+}
+header>p {
+  text-align: left;
+  padding-left: 30px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.wrapper {
+  display: flex;
+  /* border: solid 2px black; */
+}
+.grid {
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: repeat(3, auto);
+  margin-right: 30px;
+  box-shadow: rgb(0 0 0 / 80%) 0px 5px 15px;
+  /* border: solid 2px green; */
+}
+.input-field {
+  height: 100px;
+  width: 100px;
+  border-radius: 1px;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 45px;
+}
+.controls {
+  margin: 50px auto;
+  margin-left: 30px;
+  /* border: solid 2px green; */
+}
+#result {
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.controls > button {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  padding: 10px 12px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  float: right;
+  width: 50%;
+}
+.controls > button:hover {
+  color: black;
+  background-color: grey;
+}
+/* .result-grid{
+  display: grid;
+  margin: 40px auto;
+  grid-template-columns: auto auto;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;;
+}
+.result-grid>span{
+  text-align: center;
+  font-size: 30px;            
+}
+.result-grid input{
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+  border: none;
+  background-color: transparent;
+}
+.x{
+  color: red;
+}
+.o{
+  color: blue;
+} */

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>TIC TAC TOE</h1>
+        <!-- Game Instructions -->
+        <p>1. Game starts by tapping on one of the box</p>
+        <p>2. First Player starts as Player X And Second Player as Player 0</p>
+        <p style="float: right;">By K@G Games</p>
+    </header>
+    <br><br><br>
+    <main>
+        <div class="wrapper">
+            <div class="grid">
+                <input type="text" id="f1" class="input-field" onclick="field1(); input();" readonly />
+                <input type="text" id="f2" class="input-field" onclick="field2(); input();" readonly />
+                <input type="text" id="f3" class="input-field" onclick="field3(); input();" readonly />
+                <input type="text" id="f4" class="input-field" onclick="field4(); input();" readonly />
+                <input type="text" id="f5" class="input-field" onclick="field5(); input();" readonly />
+                <input type="text" id="f6" class="input-field" onclick="field6(); input();" readonly />
+                <input type="text" id="f7" class="input-field" onclick="field7(); input();" readonly />
+                <input type="text" id="f8" class="input-field" onclick="field8(); input();" readonly />
+                <input type="text" id="f9" class="input-field" onclick="field9(); input();" readonly />
+            </div>
+            <div class="controls">
+                <input type="text" name="result" id="result" placeholder="RESULT" disabled>
+                <br>
+                <button id="btn-reset" onclick="reset()">Reset</button>
+                <!-- <button id="btn-newgame" onclick="newGame()">New Game</button> -->
+            </div>
+        </div>
+        <!-- <div class="result-grid">
+            <span class="x">X <hr>    
+                <input type="text" id="x-won" placeholder="0">
+            </span>
+            <span class="o">O <hr>
+                <input type="text" id="O-won" placeholder="0">
+            </span>
+            
+        </div> -->
+
+    </main>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
